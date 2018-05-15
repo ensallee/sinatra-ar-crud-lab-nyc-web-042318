@@ -1,0 +1,13 @@
+require 'pry'
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Hello World</h1>
+    binding.pry
+    <%@posts.each do |post|%>
+      <h3><%=post.name%></h3>
+      <p><%=post.content%></p>
+    <%end %>
+  </body>
+</html>
